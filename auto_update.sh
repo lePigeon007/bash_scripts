@@ -2,7 +2,7 @@
 
 # This is a script that when executed, performs a full update, 
 # upgrade and cleanup.  It also logs the time and date of the
-# execution into a file: (/home/gyp/Documents/logs/update_logger.txt).
+# execution into a file: (/home/dir/Documents/logs/update_logger.txt).
 
 # Need to make sure script is being executed as sudo:
 if [[ ${UID} -ne 0 ]]
