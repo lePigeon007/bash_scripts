@@ -29,3 +29,5 @@ echo " "
 
 # Exit:
 exit 0
+
+# NOTE: The cleanup command is not executed in this script, it can be added later if wished.
