@@ -1,6 +1,10 @@
 #!/bin/bash
 
 # Prints out system info for current system.
+echo "System Info"
+uname -a
+
+echo ""
 echo "NVIDIA Info"
 nvidia-smi
 
@@ -15,4 +19,5 @@ lscpu
 echo ""
 echo "Memory Block Info"
 lsblk
+
 exit 0
