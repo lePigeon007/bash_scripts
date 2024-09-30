@@ -21,7 +21,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 echo "		-> Update and Upgrade executed successfully." >> /home/dir/Documents/logs/update_logger.txt
 
 # Perform cleanup:
-apt autoremove
+sudo apt autoremove
 echo "		-> Cleanup executed successfully." >> /home/dir/Documents/logs/update_logger.txt
 
 # Log status to the log file:
